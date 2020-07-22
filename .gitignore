@@ -1,0 +1,9 @@
+node_modules
+.env
+package-lock.json
+Z
+
+
+# OpenZeppelin
+.openzeppelin/dev-*.json
+.openzeppelin/.session

@@ -1,0 +1,21 @@
+{
+  "name": "Upgradable",
+  "version": "1.0.0",
+  "description": "a simple upgradable implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Asmita Dhungana",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": "^3.0.0",
+    "@openzeppelin/upgrades": "^2.8.0",
+    "@truffle/hdwallet-provider": "^1.0.39",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2"
+  }
+}
