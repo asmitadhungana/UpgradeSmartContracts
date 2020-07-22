@@ -1,11 +1,11 @@
 {
   "contracts": {
     "SimpleStorage": {
-      "address": "0x16a66E4Db26A166c495a99Bd45c9Fd960CDC8C23",
-      "constructorCode": "608060405234801561001057600080fd5b50610242806100206000396000f3fe",
-      "bodyBytecodeHash": "dc51dc6729a6f94c178081a3a8530a464d04b991acff486aad2d21e7147a4557",
-      "localBytecodeHash": "b4b81e5f131740f1cd7d26c3b363a05e23e1a2aed65ab73c8e260380c063b658",
-      "deployedBytecodeHash": "b4b81e5f131740f1cd7d26c3b363a05e23e1a2aed65ab73c8e260380c063b658",
+      "address": "0x1f32135cC044900Bb4AE64EcAc805Bef32A47bEf",
+      "constructorCode": "608060405234801561001057600080fd5b506102d0806100206000396000f3fe",
+      "bodyBytecodeHash": "ae7d9b64356139d4024c4f9fd9e492c3282734c38fdc43a7e54a8935279a8264",
+      "localBytecodeHash": "c7539697073ec7e901887f68d9d7b9722d474e673c6a0cf29b5bc2882774fdc9",
+      "deployedBytecodeHash": "c7539697073ec7e901887f68d9d7b9722d474e673c6a0cf29b5bc2882774fdc9",
       "types": {
         "t_bool": {
           "id": "t_bool",
@@ -54,17 +54,17 @@
           "contract": "SimpleStorage",
           "path": "contracts/SimpleStorage.sol",
           "label": "storedValue",
-          "astId": 81,
+          "astId": 281,
           "type": "t_uint256",
-          "src": "197:19:1"
+          "src": "310:19:2"
         },
         {
           "contract": "SimpleStorage",
           "path": "contracts/SimpleStorage.sol",
           "label": "addedValue",
-          "astId": 83,
+          "astId": 283,
           "type": "t_uint256",
-          "src": "223:18:1"
+          "src": "336:18:2"
         }
       ],
       "warnings": {
@@ -74,20 +74,7 @@
         "hasInitialValuesInDeclarations": false,
         "uninitializedBaseContracts": [],
         "storageUncheckedVars": [],
-        "storageDiff": [
-          {
-            "action": "append",
-            "updated": {
-              "index": 4,
-              "contract": "SimpleStorage",
-              "path": "contracts/SimpleStorage.sol",
-              "label": "addedValue",
-              "astId": 83,
-              "type": "t_uint256",
-              "src": "223:18:1"
-            }
-          }
-        ]
+        "storageDiff": []
       }
     }
   },
@@ -97,7 +84,7 @@
       {
         "address": "0x47d164450081C44636054bc72ba5c6CD271aE1AF",
         "version": "1.0.0",
-        "implementation": "0x16a66E4Db26A166c495a99Bd45c9Fd960CDC8C23",
+        "implementation": "0x1f32135cC044900Bb4AE64EcAc805Bef32A47bEf",
         "admin": "0x5239363c3957a362343c583E47D2890E2210F868",
         "kind": "Upgradeable"
       }
