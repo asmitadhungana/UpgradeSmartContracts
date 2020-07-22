@@ -1,11 +1,11 @@
 {
   "contracts": {
     "SimpleStorage": {
-      "address": "0xf40C3Ed0Cd9e611dd1C77Efb77786f5D5B05525a",
-      "constructorCode": "608060405234801561001057600080fd5b506101ef806100206000396000f3fe",
-      "bodyBytecodeHash": "1d316c5e244bbdcb63c472971acde48928d4a05883d299ee958d6dbb0478114c",
-      "localBytecodeHash": "3ce082cc5ba6d585a2ab5ce339e37ceddf89cdbb90a9d6e6e03b30f1861d06c6",
-      "deployedBytecodeHash": "3ce082cc5ba6d585a2ab5ce339e37ceddf89cdbb90a9d6e6e03b30f1861d06c6",
+      "address": "0x16a66E4Db26A166c495a99Bd45c9Fd960CDC8C23",
+      "constructorCode": "608060405234801561001057600080fd5b50610242806100206000396000f3fe",
+      "bodyBytecodeHash": "dc51dc6729a6f94c178081a3a8530a464d04b991acff486aad2d21e7147a4557",
+      "localBytecodeHash": "b4b81e5f131740f1cd7d26c3b363a05e23e1a2aed65ab73c8e260380c063b658",
+      "deployedBytecodeHash": "b4b81e5f131740f1cd7d26c3b363a05e23e1a2aed65ab73c8e260380c063b658",
       "types": {
         "t_bool": {
           "id": "t_bool",
@@ -57,6 +57,14 @@
           "astId": 81,
           "type": "t_uint256",
           "src": "197:19:1"
+        },
+        {
+          "contract": "SimpleStorage",
+          "path": "contracts/SimpleStorage.sol",
+          "label": "addedValue",
+          "astId": 83,
+          "type": "t_uint256",
+          "src": "223:18:1"
         }
       ],
       "warnings": {
@@ -64,7 +72,22 @@
         "hasSelfDestruct": false,
         "hasDelegateCall": false,
         "hasInitialValuesInDeclarations": false,
-        "uninitializedBaseContracts": []
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": [
+          {
+            "action": "append",
+            "updated": {
+              "index": 4,
+              "contract": "SimpleStorage",
+              "path": "contracts/SimpleStorage.sol",
+              "label": "addedValue",
+              "astId": 83,
+              "type": "t_uint256",
+              "src": "223:18:1"
+            }
+          }
+        ]
       }
     }
   },
@@ -74,7 +97,7 @@
       {
         "address": "0x47d164450081C44636054bc72ba5c6CD271aE1AF",
         "version": "1.0.0",
-        "implementation": "0xf40C3Ed0Cd9e611dd1C77Efb77786f5D5B05525a",
+        "implementation": "0x16a66E4Db26A166c495a99Bd45c9Fd960CDC8C23",
         "admin": "0x5239363c3957a362343c583E47D2890E2210F868",
         "kind": "Upgradeable"
       }
