@@ -4,7 +4,7 @@ pragma solidity ^0.6.0;
 import "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol";
 import "@openzeppelin/contracts-ethereum-package/contracts/math/SafeMath.sol";
 
-contract SimpleStorageV4 is Initializable {
+contract SimpleStorageV2 is Initializable {
     using SafeMath for uint256;
     uint256 public storedValue;
     uint256 public addedValue;
