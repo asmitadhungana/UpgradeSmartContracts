@@ -19,7 +19,7 @@ contract SimpleStorage is Initializable {
 
     function incrementValue(uint256 x) public {
         addedValue = x;
-        storedValue.add(x);
+        storedValue = storedValue.add(x);
     }
 }
 
